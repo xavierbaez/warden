@@ -1,4 +1,4 @@
-ARG ENV_SOURCE_IMAGE
+ARG ENV_SOURCE_IMAGE="docker.io/wardenenv/php-fpm"
 ARG PHP_VERSION
 FROM ${ENV_SOURCE_IMAGE}:${PHP_VERSION}-magento1
 USER root
